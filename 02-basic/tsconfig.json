@@ -8,9 +8,6 @@
             "dom",
             "es2017"
         ],
-        "types": [
-            "node"
-        ],
         "noImplicitAny": true,
         "strictNullChecks": true,
         "noFallthroughCasesInSwitch": true,
@@ -30,22 +27,5 @@
         "skipLibCheck": false,
         "pretty": false,
         "noEmitOnError": true
-    },
-    "include": [
-        "code/**/*.ts"
-    ],
-    "exclude": [
-        "node_modules",
-        "code/definition-file/usage/",
-        "code/definition-file/augmentGlobal/",
-        "code/definition-file/issue9831/",
-        "code/**/*-invalid.ts",
-        "code/**/*-invalid.d.ts",
-        "code/**/invalid.ts",
-        "code/**/invalid.d.ts",
-        "code/**/*-ignore.ts",
-        "code/**/*-ignore.d.ts",
-        "code/**/ignore.ts",
-        "code/**/ignore.d.ts"
-    ]
+    }
 }
