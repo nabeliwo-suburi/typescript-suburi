@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "listFiles": true,
+        "traceResolution": true,
+        "types": [
+          "mocha"
+        ]
+    },
+    "exclude": [
+      "node_modules"
+    ]
+}
